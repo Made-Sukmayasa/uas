@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page">
+        <h5 id="date"></h5>
+        <h1 id="heading"></h1>
+        <h4 id="counter"></h4>
+        <form name="myForm" onsubmit="dataCheck()">
+            <input id="task" type="text" name="task" placeholder="Enter a task here..."> 
+            <input id="submit" type="submit" value="Add">
+            <br>
+            <span id="feedback"></span> 
+        </form>
+        <br>
+        <div id="list"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html> 
